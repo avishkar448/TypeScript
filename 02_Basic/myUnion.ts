@@ -1,7 +1,7 @@
 // | -->   
 let score: number | string =33
 
-type User={ 
+type UserA={ 
     name:string,
     id: number
 }
@@ -11,7 +11,7 @@ type Admin ={
     id: number
 }
 
-let Avishkar: User | Admin ={ 
+let Avishkar: UserA | Admin ={ 
     name:"Avi",
     id: 5621
 }
